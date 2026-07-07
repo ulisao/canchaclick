@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CanchaClick 🎾
 
-## Getting Started
+Plataforma de gestión para clubes deportivos en Argentina — reservas, cantina digital y torneos en un solo lugar.
 
-First, run the development server:
+## 🎯 Problema que resuelve
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+La mayoría de los complejos deportivos gestiona turnos por WhatsApp o teléfono: se pisan reservas, se pierden pedidos de cantina en papel y armar un fixture de torneo a mano es un dolor de cabeza. CanchaClick digitaliza esos tres procesos para que el dueño del club deje de perder tiempo administrando y se enfoque en hacer crecer el negocio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Reservas 24/7:** los jugadores reservan por un link único del club, sin llamadas ni dobles reservas. Se puede reservar solo con nombre y teléfono, o registrarse para tener historial.
+- **Cantina digital:** pedidos desde la cancha, con seguimiento de estado en tiempo real, sin papel.
+- **Torneos automatizados:** generación de fixtures, fases de grupos, llaves eliminatorias y tablas de posiciones actualizadas solas.
+- **Dashboard en tiempo real** para el dueño, con alertas instantáneas de cada reserva o pedido nuevo.
+- **Multi-deporte:** configurable para fútbol, pádel, tenis, básquet, etc., con horarios y precios propios por deporte.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Stack
 
-## Learn More
+- **Framework:** Next.js
+- **Backend / datos en tiempo real:** Convex
+- **Despliegue:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 💰 Modelo de negocio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Suscripción anual escalable: el club arranca con un plan básico de reservas y puede sumar torneos y cantina digital a medida que crece.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 Estado
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+En desarrollo.
