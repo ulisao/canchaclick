@@ -23,7 +23,3 @@ La mayoría de los complejos deportivos gestiona turnos por WhatsApp o teléfono
 ## 💰 Modelo de negocio
 
 Suscripción anual escalable: el club arranca con un plan básico de reservas y puede sumar torneos y cantina digital a medida que crece.
-
-## 📈 Estado
-
-En desarrollo.
